@@ -94,3 +94,14 @@ a {
     font-family: 'Open Sans', 'sans-serif';
     font-weight: 100;
 }
+
+/* ------ MOBILE LAYOUT ------*/
+@media only screen and (max-width: 700px) {
+   
+    .map_paragraph {
+        text-align: left;
+        line-height: 1.2em;
+    }
+    
+    
+}
