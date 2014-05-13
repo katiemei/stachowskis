@@ -1,0 +1,96 @@
+p {
+    font-family: 'Open Sans', 'sans-serif';
+    font-size: .9em;
+    font-weight: 100;
+}
+
+h1 {
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-size: 3em;
+    letter-spacing: .07em;
+    font-style: normal;
+    line-height: .9em;
+}
+
+h2 {
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-size: 2em;
+    letter-spacing: .07em;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #222
+}
+
+.nav, .contact {
+    font-family: 'Vollkorn', 'serif';
+    font-size: .85em;
+    text-transform: uppercase;
+}
+
+.topbar:hover {
+    background-color: #000;
+    background-color: hsla(100, 10%, 10%, .1);
+    }
+
+.old_posts {
+    font-family: 'Vollkorn', 'serif';
+    font-size: .8em;
+    text-transform: uppercase;
+}
+
+.blog:hover {
+    background-color: #000;
+    background-color: hsla(100, 10%, 10%, .1);
+    }
+
+.date {
+    font-family: 'Open Sans', 'sans-serif';
+    font-size: .9em;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+    
+.menu {
+    text-align: center;
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-size: 1.7em;
+    letter-spacing: .07em;
+    font-style: normal;
+    margin-bottom: 0em;
+}
+
+.menu_options {
+    text-align: center;
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-size: 1.2em;
+    letter-spacing: .07em;
+    font-style: normal;
+    margin-top: 1em;
+    line-height: 0em;
+}
+
+.map_paragraph {
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1em;
+}
+
+.map_header {
+    margin-bottom: 0em;
+}
+
+.food {
+    text-align: center;
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-size: 1em;
+}
+
+.date {
+    font-size: 1em;
+    color: #c5c4c4;
+    font-family: 'Open Sans', 'sans-serif';
+    font-weight: 100;
+}
