@@ -1,0 +1,256 @@
+img.name {
+    display: block;
+    margin: 0px auto; 
+}
+
+
+/* ------ tape ------*/
+.tape1 {
+    position: absolute;
+    top: 200px;
+    z-index: 2;
+}
+
+ .tape5 {
+    position: absolute;
+    top: -100px;
+    left: 1300px;
+    z-index: 2;
+} 
+
+.tape4 {
+    position: absolute;
+    bottom: -100px;
+    left: 1900px;
+    z-index: 2;
+}
+.tape6 {
+    position: absolute;
+    top: 800px;
+    z-index: 2;
+}
+
+ .tape7 {
+    position: absolute;
+    top: -400px;
+    left: 1300px;
+    z-index: 2;
+} 
+
+.tape8 {
+    position: absolute;
+    bottom: -100px;
+    left: 1900px;
+    z-index: 2;
+}
+
+/* ------ red marker ------*/
+.red_marker1 {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    z-index: 2;
+}
+
+.red_marker2 {
+    position: absolute;
+    top: 400px;
+    left: 1200px;
+    z-index: 2;
+}
+
+.red_marker3 {
+    position: absolute;
+    top: 900px;
+    left: 1900px;
+    z-index: 2;
+}
+
+.red_loop {
+    position: absolute;
+    top: 900px;
+    z-index: 2;
+}
+
+/* ------ label ------*/
+.label {
+    position: absolute;
+    top: 1000px;
+    left: 50px;
+    z-index: 2;
+    opacity: .75;
+}
+
+.container {
+	margin-top: 0em;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	width: 90%;
+	max-width: 1000px;
+	padding-top: 2em;
+    padding-right: 2em;
+    padding-left: 2em;
+    padding-bottom: auto;
+	border: 1px solid #eee;
+    background-color: #fff;
+    box-shadow: 0 0 3px #777777;
+    z-index: 10;
+    position: relative;
+}
+
+/* ------ fake slideshow images ------*/
+.test { 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    padding-bottom: 3em;
+}
+
+/* ------ for nav ------*/
+.topbar {
+    padding: .5em;
+}
+ul {
+    padding: 0em;
+}
+
+
+a.blog {
+    padding: .5em;
+}
+
+h2 {
+    text-align: center;
+}
+
+/*-- map --*/
+.map { 
+    display: block;
+    margin: 0px auto; 
+    padding-top: 2em;
+}
+
+/*--for review section--*/
+.date {
+    margin-bottom: 0em;
+}
+
+.review_paragraph1 {
+    width: 50%;
+    float: left;
+}
+
+.review_paragraph2 {
+    width: 50%;
+    float: left;
+    padding-left: 2em;
+}
+
+.review_description {
+    margin-top: 0em;
+    padding-top: 0em;
+}
+
+/* ------ for menu page ------*/
+.center_line {
+    width: 70%;
+    display: block;
+    margin: 0px auto; 
+    margin-top: 2em;
+}
+
+/* ------ Homepage News & Specials ------*/
+.news {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.old_posts {
+    text-align: right;
+}
+
+/* ------ About Page ------*/
+.about {
+    text-align: left;
+}
+
+/* ------ Navigation ------*/
+nav, li {
+    display: inline;
+    padding: 15px;
+    text-align: center;
+}
+
+/* ------ Footer ------*/
+.contact {
+    text-align: center;
+    margin-top: 4em;
+    padding-left: 0em;
+    margin-left: 0em;
+    padding-bottom: 3em;
+}
+
+ul.social {
+    text-align: center;
+    margin-top: 5em;
+    padding-left: 0em;
+    margin-left: 0em;
+    padding-bottom: 0em;
+    margin-bottom: -2em;
+}
+
+
+/* ------ MOBILE LAYOUT ------*/
+@media only screen and (max-width: 700px) {
+    .container {
+        margin-bottom: 0em;
+    }
+    h1 {
+        text-align: left;
+    }
+
+    h2 {
+        text-align: left;
+    }
+
+    nav,li { 
+        text-align: left;
+        padding-left: 0px;
+    }
+    
+    ul {
+        padding-left: 0em;
+        line-height: 2em;
+        margin-bottom: 0em;
+    }
+    
+    h2 {
+        margin-top: 0em;
+    }
+    
+    img.test{
+        padding-bottom: 1.5em;
+    }
+    
+    .footer {
+        text-align: left;
+        padding-bottom: 2em;
+    }
+    
+    .beeftape {
+        top: 400px;
+    }
+ 
+    .review_paragraph1 {
+        float: right;
+        width: 100%;
+    }
+    
+    .review_paragraph2 {
+        float: right;
+        width: 100%;
+        padding: 0;
+    }
+}
